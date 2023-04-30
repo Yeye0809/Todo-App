@@ -24,9 +24,9 @@ const AddTodo = ({onAddTodo}) => {
       <input
         className='form-control'
         type='text'
-        placeholder='¿Qué quieres hacer?'
+        placeholder='¿What do you want to do?'
         value={ formValue }
-        name='formVaalue'
+        name='formValue'
         onChange={ onInputChange }
       />
 
